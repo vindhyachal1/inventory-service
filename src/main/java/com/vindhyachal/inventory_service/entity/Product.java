@@ -19,6 +19,8 @@ public class Product {
     private Integer id;
     private String name;
     private String category;
+    private Float price;
+    private Integer stock;
 
     public Product(String category, String name, Float price, Integer stock) {
         this.category = category;
@@ -26,7 +28,4 @@ public class Product {
         this.price = price;
         this.stock = stock;
     }
-
-    private Float price;
-    private Integer stock;
 }
